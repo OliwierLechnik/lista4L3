@@ -1,0 +1,27 @@
+# ninja log v5
+2	121	1712765422115806900	CMakeFiles/lista4L3.dir/Square.cpp.o	2d476ffdf8b1a757
+1	147	1712772463772744300	CMakeFiles/lista4L3.dir/1cpp/Rectangle.cpp.o	ed146c7bbe89c72f
+0	18	1712774893299638100	build.ninja	5d90dc8aa19a71e3
+211	260	1712772481879995800	lista4L3	4d5b74df7d14bde9
+1	211	1712772481831698600	CMakeFiles/lista4L3.dir/1cpp/main.cpp.o	adb58c43fd2332aa
+1	146	1712771722339000100	CMakeFiles/lista4L3.dir/1cpp/Pentagon.cpp.o	1944ed810703e0f7
+2	135	1712770023305694600	CMakeFiles/lista4L3.dir/1cpp/Quadrangle.cpp.o	f1cc702a1e51a92b
+2	164	1712772434687709600	CMakeFiles/lista4L3.dir/1cpp/Circle.cpp.o	dc99e9406385dc07
+1	112	1712765803782845900	CMakeFiles/lista4L3.dir/1cpp/Shape.cpp.o	d5491dd108682f2a
+1	138	1712772421235689100	CMakeFiles/lista4L3.dir/1cpp/Hexagon.cpp.o	ffe2342aaa7a7d77
+2	149	1712772434673003800	CMakeFiles/lista4L3.dir/1cpp/Square.cpp.o	57897fee8ccd6f46
+1	148	1712775058810236700	CMakeFiles/lista4L3.dir/1cpp/Parallelogram.cpp.o	f1790f6f0f46b61d
+1	150	1712775058811576400	CMakeFiles/lista4L3.dir/1cpp/Diamond.cpp.o	e9a1de11b2e88b9b
+1	202	1712775063778159200	CMakeFiles/lista4L3.dir/1cpp/main.cpp.o	adb58c43fd2332aa
+2	141	1712775139324612300	CMakeFiles/lista4L3.dir/1cpp/Parallelogram.cpp.o	f1790f6f0f46b61d
+2	146	1712775139330383400	CMakeFiles/lista4L3.dir/1cpp/Diamond.cpp.o	e9a1de11b2e88b9b
+1	196	1712775139379538900	CMakeFiles/lista4L3.dir/1cpp/main.cpp.o	adb58c43fd2332aa
+196	245	1712775139427353100	lista4L3	b2cfa0a607d62174
+2	195	1712775149334255600	CMakeFiles/lista4L3.dir/1cpp/main.cpp.o	adb58c43fd2332aa
+196	243	1712775149381226300	lista4L3	b2cfa0a607d62174
+1	147	1712775465848070000	CMakeFiles/lista4L3.dir/1cpp/Diamond.cpp.o	e9a1de11b2e88b9b
+1	148	1712775465848659000	CMakeFiles/lista4L3.dir/1cpp/Parallelogram.cpp.o	f1790f6f0f46b61d
+1	235	1712775465936209200	CMakeFiles/lista4L3.dir/1cpp/main.cpp.o	adb58c43fd2332aa
+236	286	1712775465985969200	lista4L3	b2cfa0a607d62174
+1	230	1712775588367559100	CMakeFiles/lista4L3.dir/1cpp/main.cpp.o	adb58c43fd2332aa
+230	280	1712775588416245600	lista4L3	b2cfa0a607d62174

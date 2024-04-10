@@ -1,0 +1,3 @@
+/home/olile/Dokumenty/pwr/lista4L3/cmake-build-debug/CMakeFiles/lista4L3.dir
+/home/olile/Dokumenty/pwr/lista4L3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/olile/Dokumenty/pwr/lista4L3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
