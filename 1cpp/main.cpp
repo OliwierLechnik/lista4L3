@@ -120,7 +120,7 @@ int main(int argc, char *argv[]){
         }
         try
         {
-            if(parsed[0]==parsed[1]==parsed[2]==parsed[3]){
+            if(parsed[0]==parsed[1] && parsed[2]==parsed[1] && parsed[2]==parsed[3]){
                 if(parsed[4]==90){
                     shape = static_cast<Shape *>(new Square(parsed[0]));
                 }else{
@@ -154,42 +154,6 @@ int main(int argc, char *argv[]){
     area(shape);
     circumference(shape);
 
-    // std::cout << "your flag of '" << argv[1] << "' means its: " << interpretFlag(argv[1]) << std::endl; 
-
-
-
-    // std::vector<Shape*>shapes;
-    // shapes.push_back(new Circle(5));
-    // shapes.push_back(new Rectangle(5,8));
-    // shapes.push_back(new Square(5));
-    // shapes.push_back(new Pentagon(5));
-    // shapes.push_back(new Hexagon(5));
-    // shapes.push_back(new Parallelogram(5,8,30));
-    // shapes.push_back(new Diamond(5,30));
-    // shapes.push_back(new Quadrangle(5,5,4,4,69));
-
-    // for(const auto shape : shapes){
-    //     info(shape);
-    //     area(shape);
-    //     circumference(shape);
-    // }
     return 0;
 }
 
-
-//std::vector<Shape*>shapes;
-//shapes.push_back(new Circle(5));
-//shapes.push_back(new Rectangle(5,8));
-//shapes.push_back(new Square(5));
-//shapes.push_back(new Pentagon(5));
-//shapes.push_back(new Hexagon(5));
-//shapes.push_back(new Parallelogram(5,8,30));
-//shapes.push_back(new Diamond(5,30));
-//shapes.push_back(new Quadrangle(5,5,4,4,69));
-//
-//for(const auto shape : shapes){
-//info(shape);
-//area(shape);
-//circumference(shape);
-//
-//}
