@@ -24,5 +24,5 @@ double Circle::calcCircumference() {
 }
 
 std::string Circle::info() {
-    return "circle";
+    return "Circle";
 }
