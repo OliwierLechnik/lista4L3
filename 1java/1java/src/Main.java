@@ -89,25 +89,26 @@ public class Main {
                     System.err.println("Incorrect number of following arguments, should be 5 but is " + parsed.size() + ".");
                     System.exit(0);
                 }
-                try {
-                    if (parsed.get(0).equals(parsed.get(1)) && parsed.get(1).equals(parsed.get(2)) && parsed.get(2).equals(parsed.get(3))) {
-                        if (parsed.get(4).equals("90")) {
-                            shape = new Square(parsed.get(0));
-                        } else {
-                            shape = new Diamond(parsed.get(0), parsed.get(4));
-                        }
-                    } else if (parsed.get(0).equals(parsed.get(2)) && parsed.get(1).equals(parsed.get(3))) {
-                        if (parsed.get(4).equals("90")) {
-                            shape = new Rectangle(parsed.get(0), parsed.get(1));
-                        } else {
-                            shape = new Parallelogram(parsed.get(0), parsed.get(1), parsed.get(4));
-                        }
-                    } else {
-                        shape = new Quadrangle(parsed.get(0), parsed.get(1), parsed.get(2), parsed.get(3), parsed.get(4));
-                    }
-                } catch (Exception e) {
-                    System.err.println(e.getMessage());
+
+                if(parsed.get(4) <= 0 || parsed.get(4) >= 180){
+                    System.err.println("angle invalid");
                     System.exit(0);
+                }
+
+                if (parsed.get(0).equals(parsed.get(1)) && parsed.get(1).equals(parsed.get(2)) && parsed.get(2).equals(parsed.get(3))) {
+                    if (parsed.get(4).equals(90.0)) {
+                        shape = new Square(parsed.get(0));
+                    } else {
+                        shape = new Diamond(parsed.get(0), parsed.get(4));
+                    }
+                } else if (parsed.get(0).equals(parsed.get(2)) && parsed.get(1).equals(parsed.get(3))) {
+                    if (parsed.get(4).equals(90.0)) {
+                        shape = new Rectangle(parsed.get(0), parsed.get(1));
+                    } else {
+                        shape = new Parallelogram(parsed.get(0), parsed.get(1), parsed.get(4));
+                    }
+                } else {
+                    shape = new Quadrangle(parsed.get(0), parsed.get(1), parsed.get(2), parsed.get(3), parsed.get(4));
                 }
                 break;
             default:
